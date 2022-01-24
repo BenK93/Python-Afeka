@@ -15,13 +15,17 @@ class Person:
         self.name = name
         self.age = age
 
-    def myfunc(self):
-        print("Hello my name is " + self.name,
-              " and i am " + self.age + " years old")
+    def func(self):
+        print("Hello my name is ", self.name,
+              " and i am ", self.age, " years old")
 
 
 p1 = Person("John", 36)
-p1.myfunc()
+p1.func()
 p1.age = 10
 p1.name = 'ben'
-p1.myfunc()
+p1.func()
+
+
+del p1.age
+print(p1.age)

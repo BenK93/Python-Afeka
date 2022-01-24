@@ -4,7 +4,7 @@ while i < 6:
     print(i)
     i += 1
 
-
+print('---------------------------')
 # Exit the loop when i is 3:
 j = 1
 while j < 6:
@@ -13,6 +13,7 @@ while j < 6:
         break
     j += 1
 
+print('---------------------------')
 # Continue to the next iteration if i is 3:
 i = 0
 while i < 6:
