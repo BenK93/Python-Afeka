@@ -74,3 +74,28 @@ for j in range(f_symmetric.shape[1]):
 if np.all(symmetry):
     print(symmetry)
     print("f_symmetric is fully symmetric in the column axis")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
